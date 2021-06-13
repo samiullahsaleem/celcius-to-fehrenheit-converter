@@ -6,12 +6,12 @@ using namespace std;
 
 int main()
 {
-    int celcius, fehrenheit, counter ;
+    double celcius, fehrenheit, counter ;
     celcius = 0;
     
     while(celcius <= 20)
     {
-        fehrenheit = (5/2)*(celcius+32);
+        fehrenheit = (celcius + 9/5) + 32;
         cout << celcius << " in celcius | " << fehrenheit << " in Fehrenheit " << endl;
         celcius = celcius + 1;
     }
